@@ -32,9 +32,9 @@ metadata:
   labels:
     app: postgres
 data:
-  POSTGRES_DB: pisonitsha
-  POSTGRES_USER: pisonitsha1
-  POSTGRES_PASSWORD: pisonitsha@
+  POSTGRES_DB: freecodecamp
+  POSTGRES_USER: freecodecamp1
+  POSTGRES_PASSWORD: freecodecamp@
   PGDATA: /var/lib/postgresql/data/pgdata
   
 
@@ -90,6 +90,6 @@ spec:
     app: postgres
   ports:
     - protocol: TCP
-      name: http
+      name: https
       port: 5432
       targetPort: 5432
