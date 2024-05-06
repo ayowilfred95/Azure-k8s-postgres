@@ -182,7 +182,8 @@ exports.getAdminByEmail = async (req, res) => {
       // Return the admin data
       return res.status(200).json({
         status: "success",
-        data: admin,
+        data:admin
+
       });
     } catch (error) {
       console.error("Error:", error); // Log the error
